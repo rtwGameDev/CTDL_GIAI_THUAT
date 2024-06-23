@@ -102,10 +102,10 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Bảng hiển thị chỗ ngồi trong máy bay. 
 |Trang thái|Ý nghĩa|
 |------|----------|	
-| Empty| Ghế trống|
+|Empty| Ghế trống|
 |Reserved seat| Ghế đã được đặt|
-|Selected seat(Available)| Ghế đang được chọn(chưa được đặt)|
-|Selected seat(unavailable)| Ghế được chọn(dã đặt)|
+|Selected seat (Available)| Ghế đang được chọn(chưa được đặt)|
+|Selected seat (unavailable)| Ghế được chọn(dã đặt)|
 #### - Tính năng đặt vé máy bay - [BOOK](#14)
 #### - TÍnh năng hủy vé máy bay - [CANCEL](#15)
 ----------------------------------------------------------------------------------------------------------------------------------------
