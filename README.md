@@ -30,5 +30,11 @@ Ngày giờ khởi hành: dd/mm/yyyy hh:mm.  Nơi đến : xxxxxxxxxxx
 	Số hiệu máy bay		Số lượt thực hiện chuyến bay
 ### Lưu ý: Chương trình cho phép lưu các danh sách vào file; Kiểm tra các điều kiện khi nhập liệu làm dữ liệu bị sai.
 
+## HƯỚNG DẪN CÀI ĐẶT
+https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e0?pvs=4
+
 ## HƯỚNG DẪN SỬ DỤNG
+
+
+
 
