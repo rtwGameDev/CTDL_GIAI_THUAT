@@ -137,7 +137,9 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### PASSENGER LIST: Thể hiện danh sách hành khách 1 chuyến bay đang được focus để đặt vé. <a name="16"></a>
 ![z5566112083251_907f2376efac7217beca076f853dbd72](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/ddf73ed7-5c9a-4615-8ae0-5695c74a15a5)
-#### - Khung hearder là khung thông tin chuyến bay bao gồm: Hãng hàng không, ngày khởi hành, điểm đến, điểm khởi hành, giờ khởi hành, thời điểm tới nơi dự kiến (special), loại máy bay, mã máy bay.
+#### - Khung hearder là khung thông tin chuyến bay bao gồm: 
+|Hãng hàng không|Ngày khởi hành|Điểm đến|Điểm khởi hành|Giờ khởi hành|Thời điểm tới nơi dự kiến (special)|Loại máy bay|Mã máy bay|
+|-|-|-|-|-|-|-|-|
 #### - Bảng danh sách chứa các thông tin của hành khách.
 #### - [Ticket](#13): cho phép quay trở lại trang đặt vé của chuyến bay đang được focus.
 #### - Tính năng tìm kiếm theo căn cước công dân - [KMP Algorithm](#21)
