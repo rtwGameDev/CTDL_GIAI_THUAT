@@ -49,3 +49,9 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### ALL-PASSENGER: Trang hiển thị tất cả thông tin các hành khách đã từng đặt vé máy bay.
 ![z5566111941925_50b7a127d2fa708051e31665ea799ef7](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/97946691-205d-4d16-a18c-4eb00ad0c9b6)
+#### - Mỗi hành khách gồm các thông tin: Mã căn cước công dân, họ và tên, giới tính.
+#### - Các chức năng sắp xếp danh sách hành khách theo, mã căn cước, theo họ, theo tên, theo giới tính.
+#### - Khung "INFOMATION" hiển thị chi tiết thông tin cũng như tiện cho việc sửa và thêm hành khách
+#### - Thanh tìm kiếm hành khách theo Mã căn cước.
+#### - Tính năng chỉnh sửa thông tin hành khách (Edit).
+#### - Tính năng thêm hành khách (ADD Passenger)
