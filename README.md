@@ -101,7 +101,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ##### + Khung thông tin chuyến bay bao gồm: Hãng hàng không, ngày khởi hành, điểm đến, điểm khởi hành, giờ khởi hành, thời điểm tới nơi dự kiến (special), loại máy bay, mã máy bay.
 #### - Bảng hiển thị chỗ ngồi trong máy bay. (CHÚ THÍCH CÁC TRẠNG THÁI). Empty: Ghế trống, Reserved seat: ghế đã được đặt, Selected seat(Available): ghế đang được chọn(chưa được đặt), Selected seat(unavailable): ghế được chọn(dã đặt).
 #### - Tính năng đặt vé máy bay - [BOOK](#14)
-#### - TÍnh năng hủy vé máy bay - [BOOK](#15)
+#### - TÍnh năng hủy vé máy bay - [CANCEL](#15)
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### BOOK: Cho phép đặt vé, nhập thông tin vé, đảm bảo điền đầy đủ thông tin(1 người không thể đặt 2 vé trên cùng 1 chuyến bay). <a name="14"></a>
 ![z5566112048208_d0cc1f7b18326710b79f0912b5f0e780](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/c6e7108a-0200-4a3e-b5fd-874b8466d9a6)
@@ -115,7 +115,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ### PASSENGER LIST: Thể hiện danh sách hành khách 1 chuyến bay đang được focus để đặt vé. <a name="16"></a>
 ![z5566112083251_907f2376efac7217beca076f853dbd72](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/ddf73ed7-5c9a-4615-8ae0-5695c74a15a5)
 #### - Khung hearder là khung thông tin chuyến bay bao gồm: Hãng hàng không, ngày khởi hành, điểm đến, điểm khởi hành, giờ khởi hành, thời điểm tới nơi dự kiến (special), loại máy bay, mã máy bay.
-#### - Bảng danh sách chưa các thông tin của hành khách.
+#### - Bảng danh sách chứa các thông tin của hành khách.
 #### - [Ticket](#13): cho phép quay trở lại trang đặt vé của chuyến bay đang được focus.
 #### - Tính năng tìm kiếm theo căn cước công dân.
 #### - Các tính năng sắp xếp danh sách hành khách theo căn cước công dân theo ID và Tên.
