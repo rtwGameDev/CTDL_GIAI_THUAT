@@ -72,7 +72,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Sắp xếp danh sách chuyến bay theo Mã chuyến bay, Thời gian thực hiện chuyến bay (từ tương lai trở về quá khứ).
 #### - Tính năng [FILTER BY TIME PERIOD](#9) lọc danh sách chuyến bay giữa 2 khoảng thời gian xác định. (link)
 #### - Khung "CONTROL" thực hiện các chức năng điều khiển cho phép lọc các chuyến bay theo thời gian và địa điểm đến.
-#### - Tính năng đặt vé máy bay (BOOK)
+#### - Tính năng đặt vé máy bay - [BOOK](#14)
 #### - Tính năng cho phép chỉnh sửa thông tin chuyến bay, khởi tạo chuyến bay đảm bảo Mã chuyến bay không trùng lặp và không cho phép khởi tạo thời gian chuyến bay trong quá khứ.
 #### - Tính năng cho phép hủy 1 chuyến bay (được chọn)
 ----------------------------------------------------------------------------------------------------------------------------------------
