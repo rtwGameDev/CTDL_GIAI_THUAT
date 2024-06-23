@@ -100,8 +100,9 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ##### + [FLIGHT LIST](#8) quay về danh sách các chuyến bay.
 ##### + Khung thông tin chuyến bay bao gồm: Hãng hàng không, ngày khởi hành, điểm đến, điểm khởi hành, giờ khởi hành, thời điểm tới nơi dự kiến (special), loại máy bay, mã máy bay.
 #### - Bảng hiển thị chỗ ngồi trong máy bay. 
-| Empty| Ghế trống|
+|Trang thái|Ý nghĩa|
 |------|----------|	
+| Empty| Ghế trống|
 |Reserved seat| Ghế đã được đặt|
 |Selected seat(Available)| Ghế đang được chọn(chưa được đặt)|
 |Selected seat(unavailable)| Ghế được chọn(dã đặt)|
