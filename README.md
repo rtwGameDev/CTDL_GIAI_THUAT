@@ -52,7 +52,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Mỗi hành khách gồm các thông tin: Mã căn cước công dân, họ và tên, giới tính.
 #### - Các chức năng sắp xếp danh sách hành khách theo, mã căn cước, theo họ, theo tên, theo giới tính.
 #### - Khung "INFOMATION" hiển thị chi tiết thông tin cũng như tiện cho việc sửa và thêm hành khách
-#### - Thanh tìm kiếm hành khách theo Mã căn cước.
+#### - Thanh tìm kiếm hành khách theo Mã căn cước - [KMP Algorithm](#21)
 #### - Tính năng chỉnh sửa thông tin hành khách - [EDIT PASSENGER](#6).
 #### - Tính năng thêm hành khách - [ADD PASSENGER](#7)
 #### - Back cho phép quay lại trang chính của - [PASSENGER](#4)
@@ -66,7 +66,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### FLIGHT: Trang chính thể hiện các chuyến bay. <a name="8"></a>
 ![z5566111976819_714ed5ea0f7a9bc0a93554cbfbb90308](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/e56d724b-52a9-456c-bc42-d2dd9f6a4388)
-#### - Thanh tìm kiếm theo mã chuyến bay.
+#### - Thanh tìm kiếm theo mã chuyến bay - [KMP Algorithm](#21)
 #### - Mỗi phần tử sẽ thể hiện 1 chuyến bay nhất định, chứa các thông tin về mã chuyến bay, ngày giờ khởi hành, điểm đến, mã máy bay thực hiện chuyến bay, trạng thái chuyến bay, số lượng vé đã đặt/tổng số vé.
 #### - Tính năng cập nhật chuyến bay theo thời gian thực.
 #### - Sắp xếp danh sách chuyến bay theo Mã chuyến bay, Thời gian thực hiện chuyến bay (từ tương lai trở về quá khứ).
@@ -117,7 +117,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Khung hearder là khung thông tin chuyến bay bao gồm: Hãng hàng không, ngày khởi hành, điểm đến, điểm khởi hành, giờ khởi hành, thời điểm tới nơi dự kiến (special), loại máy bay, mã máy bay.
 #### - Bảng danh sách chứa các thông tin của hành khách.
 #### - [Ticket](#13): cho phép quay trở lại trang đặt vé của chuyến bay đang được focus.
-#### - Tính năng tìm kiếm theo căn cước công dân.
+#### - Tính năng tìm kiếm theo căn cước công dân - [KMP Algorithm](#21)
 #### - Các tính năng sắp xếp danh sách hành khách theo căn cước công dân theo ID và Tên.
 #### - Các nút điều hướng trang dẫn tới [Flight List](#8) và [Passenger List](#4) và [ALL PASSENGER](#5)
 #### - [CANCEL](#15): Chọn 1 hành khách trên danh sách danh sách hành khách 1 chuyến bay, ta có thể truy cập thẳng tới trang hủy vé của hành khách đó.
@@ -125,7 +125,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ### PLANE: Thể hiện danh sách các máy bay. <a name="17"></a>
 ![z5566112083315_bafc700b5ed2bf14911ab027a84419f2](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/d271689f-814f-4709-8586-d3055f1de12c)
 #### - Mỗi máy bay chứa các thông tin về mã máy bay, loại máy bay, số lượng chỗ ngồi, trạng thái.
-#### - Các chức năng tìm kiếm theo mã máy bay.
+#### - Các chức năng tìm kiếm theo mã máy bay - [KMP Algorithm](#21)
 #### - Các tính năng sắp xếp danh sách máy bay theo ID, số chỗ ngồi, trạng thái.
 #### - Khung "INFORMATION" chứa thông tin chi tiết của 1 máy bay.
 #### - [EDIT](#18) - [ADD PLANE](#19): Tính năng sửa thông tin máy bay, thêm máy bay đảm bảo đầy đủ thông tin và không trùng lặp ID, các ràng buộc về số chỗ ngồi.
