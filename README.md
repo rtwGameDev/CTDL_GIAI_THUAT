@@ -49,8 +49,8 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Tính năng [ALL PASSENGER](#5) cho phép dẫn đến trang xem toàn bộ hành khách đã từng đặt vé máy bay.
 #### - Tính năng "RESET ALL" cho phép đặt tất cả ô tìm kiếm và khung lọc về mặc định.
 #### - Thanh tìm kiếm theo mã chuyến bay. (SPECIAL) - [KMP Algorithm](#21)
-#### - Đồng hồ cập nhật theo thời gian thực.
-#### - LogOut giúp thoát ứng dụng trở lại trang Login
+#### - Đồng hồ cập nhật theo thời gian thực - [Time Date](#22)
+#### - LogOut giúp thoát ứng dụng trở lại trang [LOGIN](#3)
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### ALL PASSENGER: Trang hiển thị tất cả thông tin các hành khách đã từng đặt vé máy bay. <a name="5"></a>
 ![z5566111941925_50b7a127d2fa708051e31665ea799ef7](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/97946691-205d-4d16-a18c-4eb00ad0c9b6)
@@ -81,7 +81,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 |Mã máy bay thực hiện chuyến bay|
 |Trạng thái chuyến bay|
 |Số lượng vé đã đặt/tổng số vé|
-#### - Tính năng cập nhật chuyến bay theo thời gian thực. [Time Date](#22)
+#### - Tính năng cập nhật chuyến bay theo thời gian thực - [Time Date](#22)
 #### - Sắp xếp danh sách chuyến bay theo
 |Mã chuyến bay|Thời gian thực hiện chuyến bay (từ tương lai trở về quá khứ)|
 |-|-|
