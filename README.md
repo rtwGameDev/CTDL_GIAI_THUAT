@@ -115,8 +115,30 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ### PASSENGER LIST: Thể hiện danh sách hành khách 1 chuyến bay đang được focus để đặt vé.
 ![z5566112083251_907f2376efac7217beca076f853dbd72](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/ddf73ed7-5c9a-4615-8ae0-5695c74a15a5)
 #### - Khung hearder là khung thông tin chuyến bay bao gồm: Hãng hàng không, ngày khởi hành, điểm đến, điểm khởi hành, giờ khởi hành, thời điểm tới nơi dự kiến (special), loại máy bay, mã máy bay.
+#### - Bảng danh sách chưa các thông tin của hành khách.
 #### - Ticket Button: cho phép quay trở lại trang đặt vé của chuyến bay đang được focus.
 #### - Tính năng tìm kiếm theo căn cước công dân.
 #### - Các tính năng sắp xếp danh sách hành khách theo căn cước công dân theo ID và Tên.
 #### - Các nút điều hướng trang dẫn tới Flight List và Passenger List và ALL PASSENGER
 #### - Chọn 1 hành khách trên danh sách danh sách hành khách 1 chuyến bay, ta có thể truy cập thẳng tới trang hủy vé của hành khách đó.
+----------------------------------------------------------------------------------------------------------------------------------------
+### PLANE: Thể hiện danh sách các máy bay.
+![z5566112083315_bafc700b5ed2bf14911ab027a84419f2](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/d271689f-814f-4709-8586-d3055f1de12c)
+#### - Mỗi máy bay chứa các thông tin về mã máy bay, loại máy bay, số lượng chỗ ngồi, trạng thái.
+#### - Các chức năng tìm kiếm theo mã máy bay.
+#### - Các tính năng sắp xếp danh sách máy bay theo ID, số chỗ ngồi, trạng thái.
+#### - Khung "INFORMATION" chứa thông tin chi tiết của 1 máy bay.
+#### - Tính năng sửa thông tin máy bay, thêm máy bay đảm bảo đầy đủ thông tin và không trùng lặp ID, các ràng buộc về số chỗ ngồi.
+#### - Xóa 1 máy bay nào đó, đảm bảo máy bay hiện tại không thực hiện chuyến bay nào.
+----------------------------------------------------------------------------------------------------------------------------------------
+### EDIT: Chỉnh sửa thông tin máy bay.
+![z5566112111313_6007df5172665e8dd57956359d9a8759](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/6c400d88-3611-4cbd-832c-28592921caa0)
+----------------------------------------------------------------------------------------------------------------------------------------
+### ADD PLANE: Thêm 1 máy bay.
+![z5566112111356_47c946cd06d0c6717124126e1eeafc95](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/a3c6ca91-b3bb-464e-8d67-641d5d852c47)
+----------------------------------------------------------------------------------------------------------------------------------------
+### THỐNG KÊ: cho phép thống kê số lần thực hiện chuyến bay của các máy bay.
+![z5566112146945_b8e71197fc628e9b51fe93221a6d0965](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/fce6b37a-068f-4213-853c-23858df3acad)
+#### - Các chức năng sắp xếp theo ID, số lần thực hiên, kiểu máy bay.
+#### - Khung thông tin.
+----------------------------------------------------------------------------------------------------------------------------------------
