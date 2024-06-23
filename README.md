@@ -67,7 +67,15 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ### FLIGHT: Trang chính thể hiện các chuyến bay. <a name="8"></a>
 ![z5566111976819_714ed5ea0f7a9bc0a93554cbfbb90308](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/e56d724b-52a9-456c-bc42-d2dd9f6a4388)
 #### - Thanh tìm kiếm theo mã chuyến bay - [KMP Algorithm](#21)
-#### - Mỗi phần tử sẽ thể hiện 1 chuyến bay nhất định, chứa các thông tin về mã chuyến bay, ngày giờ khởi hành, điểm đến, mã máy bay thực hiện chuyến bay, trạng thái chuyến bay, số lượng vé đã đặt/tổng số vé.
+#### - Mỗi phần tử sẽ thể hiện 1 chuyến bay nhất định: 
+|Thông tin| 
+|---------|
+|Mã chuyến bay|
+|Ngày giờ khởi hành|
+|Điểm đến|
+|Mã máy bay thực hiện chuyến bay|
+|Trạng thái chuyến bay|
+|Số lượng vé đã đặt/tổng số vé|
 #### - Tính năng cập nhật chuyến bay theo thời gian thực.
 #### - Sắp xếp danh sách chuyến bay theo Mã chuyến bay, Thời gian thực hiện chuyến bay (từ tương lai trở về quá khứ).
 #### - Tính năng [FILTER BY TIME PERIOD](#9) lọc danh sách chuyến bay giữa 2 khoảng thời gian xác định. 
@@ -98,7 +106,16 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Khung HEADER 
 ##### + [PASSENGER LIST(MÃ CHUYẾN BAY)](#4) dẫn đến danh sách hành khách của 1 chuyến bay. 
 ##### + [FLIGHT LIST](#8) quay về danh sách các chuyến bay.
-##### + Khung thông tin chuyến bay bao gồm: Hãng hàng không, ngày khởi hành, điểm đến, điểm khởi hành, giờ khởi hành, thời điểm tới nơi dự kiến (special), loại máy bay, mã máy bay.
+|Khung thông tin chuyến bay|
+|--------------------------|
+|Hãng hàng không|
+|Ngày khởi hành|
+|Điểm đến|
+|Điểm khởi hành|
+|Giờ khởi hành|
+|Thời điểm tới nơi dự kiến (special)|
+|Loại máy bay|
+|Mã máy bay|
 #### - Bảng hiển thị chỗ ngồi trong máy bay. 
 |Trang thái|Ý nghĩa|
 |------|----------|	
