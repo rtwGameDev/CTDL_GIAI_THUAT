@@ -104,7 +104,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ### TICKET: cho phép người dùng đặt và hủy vé. <a name="13"></a>
 ![z5566112048197_8d6e865c35cd5104d9442cebe415991f](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/8846a66d-e223-4e54-81a2-050a0892e671)
 #### - Khung HEADER 
-##### + [PASSENGER LIST(MÃ CHUYẾN BAY)](#4) dẫn đến danh sách hành khách của 1 chuyến bay. 
+##### + [PASSENGER LIST](#4) (MÃ CHUYẾN BAY) dẫn đến danh sách hành khách của 1 chuyến bay. 
 ##### + [FLIGHT LIST](#8) quay về danh sách các chuyến bay.
 |Khung thông tin chuyến bay|
 |--------------------------|
