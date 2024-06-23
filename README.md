@@ -43,6 +43,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 |MÃ SỐ CHUYẾN BAY|
 |-|
 |THỜI GIAN KHỞI HÀNH - Ngày Tháng Năm Giờ Phút Địa điểm tới|
+|-|
 #### - Khung "FILLTER" lọc các chuyến bay theo thời gian và địa điểm.
 #### - Tính năng [ALL PASSENGER](#5) cho phép dẫn đến trang xem toàn bộ hành khách đã từng đặt vé máy bay.
 #### - Tính năng "RESET ALL" cho phép đặt tất cả ô tìm kiếm và khung lọc về mặc định.
