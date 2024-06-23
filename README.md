@@ -163,6 +163,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 |-|-|
 |[ADD PLANE](#19)|Thêm máy bay|
 |-|-|
+####
 |đảm bảo đầy đủ thông tin và không trùng lặp ID, các ràng buộc về số chỗ ngồi.|
 |-|
 #### - DELETE: Xóa 1 máy bay nào đó, đảm bảo máy bay hiện tại không thực hiện chuyến bay nào.
