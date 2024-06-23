@@ -33,19 +33,19 @@ Ngày giờ khởi hành: dd/mm/yyyy hh:mm.  Nơi đến : xxxxxxxxxxx
 ## HƯỚNG DẪN CÀI ĐẶT
 https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e0?pvs=4
 ## HƯỚNG DẪN SỬ DỤNG
-### Trang đăng nhập
+### LOGIN: Trang đăng nhập 
 ![z5566111907141_cf6a4eb4b19737c6f0cfe04445f3d425](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/dbbe929c-50e7-43a5-8e3c-acf79cfe1187)
 #### - Đăng nhập vào ứng dụng, nhấn login
 ----------------------------------------------------------------------------------------------------------------------------------------
-### Trang giao diện hành khách.
+### PASSENGER: Trang giao diện hành khách.
 ![z5566111941960_26f8a0333d40996179c7dc1cee76baa6](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/f4a7eff3-10f2-45a6-89ba-76f95c96b23c)
 #### - Hiển thị danh sách chuyến bay, lựa chọn 1 chuyến bay để xem danh sách hành khách trên chuyến bay đó. Trên mỗi phần tử chuyến bay chưa thông tin về MÃ SỐ CHUYẾN BAY, THỜI GIAN KHỞI HÀNH - Ngày Tháng Năm Giờ Phút Địa điểm tới.
 #### - Khung "FILTER_BY_FIELD" lọc các chuyến bay theo thời gian và địa điểm.
-#### - Tính năng "ALL PASSENGER" cho phép xem toàn bộ hành khách đã từng đặt vé máy bay.
+#### - Tính năng "ALL PASSENGER" cho phép dẫn đến trang xem toàn bộ hành khách đã từng đặt vé máy bay.
 #### - Tính năng "RESET ALL" cho phép đặt tất cả ô tìm kiếm và khung lọc về mặc định.
 #### - Thanh tìm kiếm theo mã chuyến bay. (SPECIAL)
 #### - Đồng hồ cập nhật theo thời gian thực.
 #### - LogOut giúp thoát ứng dụng trở lại trang Login
-
 ----------------------------------------------------------------------------------------------------------------------------------------
-
+### ALL-PASSENGER: Trang hiển thị tất cả thông tin các hành khách đã từng đặt vé máy bay.
+![z5566111941925_50b7a127d2fa708051e31665ea799ef7](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/97946691-205d-4d16-a18c-4eb00ad0c9b6)
