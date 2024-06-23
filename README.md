@@ -128,8 +128,8 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Các chức năng tìm kiếm theo mã máy bay.
 #### - Các tính năng sắp xếp danh sách máy bay theo ID, số chỗ ngồi, trạng thái.
 #### - Khung "INFORMATION" chứa thông tin chi tiết của 1 máy bay.
-#### - Tính năng sửa thông tin máy bay, thêm máy bay đảm bảo đầy đủ thông tin và không trùng lặp ID, các ràng buộc về số chỗ ngồi.
-#### - Xóa 1 máy bay nào đó, đảm bảo máy bay hiện tại không thực hiện chuyến bay nào.
+#### - [EDIT](#18) - [ADD PLANE](#19): Tính năng sửa thông tin máy bay, thêm máy bay đảm bảo đầy đủ thông tin và không trùng lặp ID, các ràng buộc về số chỗ ngồi.
+#### - DELETE: Xóa 1 máy bay nào đó, đảm bảo máy bay hiện tại không thực hiện chuyến bay nào.
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### EDIT: Chỉnh sửa thông tin máy bay. <a name="18"></a>
 ![z5566112111313_6007df5172665e8dd57956359d9a8759](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/6c400d88-3611-4cbd-832c-28592921caa0)
