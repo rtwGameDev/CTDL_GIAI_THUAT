@@ -43,7 +43,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Khung "FILTER_BY_FIELD" lọc các chuyến bay theo thời gian và địa điểm.
 #### - Tính năng "ALL PASSENGER" cho phép dẫn đến trang xem toàn bộ hành khách đã từng đặt vé máy bay.
 #### - Tính năng "RESET ALL" cho phép đặt tất cả ô tìm kiếm và khung lọc về mặc định.
-#### - [Thanh tìm kiếm theo mã chuyến bay. (SPECIAL) - KMP Algorithm] (#21) 
+#### -  [Thanh tìm kiếm theo mã chuyến bay. (SPECIAL) - KMP Algorithm](#21)
 #### - Đồng hồ cập nhật theo thời gian thực.
 #### - LogOut giúp thoát ứng dụng trở lại trang Login
 ----------------------------------------------------------------------------------------------------------------------------------------
