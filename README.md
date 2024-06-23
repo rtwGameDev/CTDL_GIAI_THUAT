@@ -29,4 +29,6 @@ Ngày giờ khởi hành: dd/mm/yyyy hh:mm.  Nơi đến : xxxxxxxxxxx
 #### h/ Thống kê số lượt thực hiện chuyến bay của từng máy bay theo thứ tự  số lượt thực hiện giảm dần. Kết xuất:
 	Số hiệu máy bay		Số lượt thực hiện chuyến bay
 ### Lưu ý: Chương trình cho phép lưu các danh sách vào file; Kiểm tra các điều kiện khi nhập liệu làm dữ liệu bị sai.
- 
+
+## HƯỚNG DẪN SỬ DỤNG
+
