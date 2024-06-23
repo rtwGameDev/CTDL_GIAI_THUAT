@@ -39,7 +39,10 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### PASSENGER: Trang giao diện hành khách. <a name="4"></a>
 ![z5566111941960_26f8a0333d40996179c7dc1cee76baa6](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/f4a7eff3-10f2-45a6-89ba-76f95c96b23c)
-#### - Hiển thị danh sách chuyến bay, lựa chọn 1 chuyến bay để xem danh sách hành khách trên chuyến bay đó. Trên mỗi phần tử chuyến bay chưa thông tin về MÃ SỐ CHUYẾN BAY, THỜI GIAN KHỞI HÀNH - Ngày Tháng Năm Giờ Phút Địa điểm tới.
+#### - Hiển thị danh sách chuyến bay, lựa chọn 1 chuyến bay để xem danh sách hành khách trên chuyến bay đó. Trên mỗi phần tử chuyến bay chưa thông tin về:
+|MÃ SỐ CHUYẾN BAY|
+|THỜI GIAN KHỞI HÀNH - Ngày Tháng Năm Giờ Phút Địa điểm tới|
+|-|-|
 #### - Khung "FILLTER" lọc các chuyến bay theo thời gian và địa điểm.
 #### - Tính năng [ALL PASSENGER](#5) cho phép dẫn đến trang xem toàn bộ hành khách đã từng đặt vé máy bay.
 #### - Tính năng "RESET ALL" cho phép đặt tất cả ô tìm kiếm và khung lọc về mặc định.
