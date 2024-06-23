@@ -165,7 +165,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Các chức năng sắp xếp theo:
 |ID|
 |-|
-|Số lần thực hiên|
+|Số lần thực hiện|
 |-|
 |Kiểu máy bay|
 |-|
