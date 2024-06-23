@@ -26,7 +26,7 @@ Ngày giờ khởi hành: dd/mm/yyyy hh:mm.  Nơi đến : xxxxxxxxxxx
 	STT  	SỐ VÉ  	SỐ CMND  	HỌ TÊN  	PHÁI
 #### f/ In danh sách các chuyến bay khởi hành trong  ngày dd/mm/yyyy đến nơi XXXX   (cho biết cụ thể số lượng các vé còn trống và giờ khởi hành)
 #### g/ In danh sách các vé còn trống của 1 chuyến bay có mã chuyến bay là X. 
-#### h/ Thống kê số lượt thực hiện chuyến bay của từng máy bay theo thứ tự  số lượt thực hiện giảm dần. Kết xuất:
+#### h/ Thống kê số lượt thực hiện chuyến bay của từng máy bay theo thứ tự  số lượt thực hiện giảm dần. Kết xuất: 
 	Số hiệu máy bay		Số lượt thực hiện chuyến bay
 ### Lưu ý: Chương trình cho phép lưu các danh sách vào file; Kiểm tra các điều kiện khi nhập liệu làm dữ liệu bị sai.
 
@@ -63,4 +63,28 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### ADD PASSENGER: Cho phép nhập thêm thông tin hành khách, đảm bảo đầy đủ thông tin và không trùng lặp.
 ![z5566111941966_92cabdb383aa95f09ae038699773dbd2](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/f36fc183-3b13-419e-9367-529e39a4565c)
+----------------------------------------------------------------------------------------------------------------------------------------
+### Flight-Page: Trang chính thể hiện các chuyến bay.
+![z5566111976819_714ed5ea0f7a9bc0a93554cbfbb90308](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/e56d724b-52a9-456c-bc42-d2dd9f6a4388)
+#### - Thanh tìm kiếm theo mã chuyến bay.
+#### - Mỗi phần tử sẽ thể hiện 1 chuyến bay nhất định, chứa các thông tin về mã chuyến bay, ngày giờ khởi hành, điểm đến, mã máy bay thực hiện chuyến bay, trạng thái chuyến bay, số lượng vé đã đặt/tổng số vé.
+#### - Tính năng cập nhật chuyến bay theo thời gian thực.
+#### - Sắp xếp danh sách chuyến bay theo Mã chuyến bay, Thời gian thực hiện chuyến bay (từ tương lai trở về quá khứ).
+#### - Tính năng "FILTER BY TIME PERIOD" lọc danh sách chuyến bay giữa 2 khoảng thời gian xác định. (link)
+#### - Khung "CONTROL" thực hiện các chức năng điều khiển cho phép lọc các chuyến bay theo thời gian và địa điểm đến.
+#### - Tính năng đặt vé máy bay (BOOK)
+#### - Tính năng cho phép chỉnh sửa thông tin chuyến bay, khởi tạo chuyến bay đảm bảo Mã chuyến bay không trùng lặp và không cho phép khởi tạo thời gian chuyến bay trong quá khứ.
+#### - Tính năng cho phép hủy 1 chuyến bay (được chọn)
+----------------------------------------------------------------------------------------------------------------------------------------
+### FILTER: Lọc chuyến bay trong 2 khoảng thời gian
+![z5566111976848_97a1ebe16ac3c506135ad429e85a8e59](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/975197a3-a296-4095-a16b-c76da6fd4b1d)
+#### - Yêu cầu nhập đầy đủ ngày tháng năm.
+----------------------------------------------------------------------------------------------------------------------------------------
+### EIDT: Chỉnh sửa thông tin cho 1 chuyến bay
+![z5566112012919_a08c78631bb58aeadd93bca2cf7438e6](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/4354f133-cd59-48a5-9450-dffc5059bfc8)
+#### - Yêu cầu nhập đầy đủ thông tin.
+----------------------------------------------------------------------------------------------------------------------------------------
+### ADD FLIGHT: Khởi tạo 1 chuyến bay
+![z5566112012943_29bfe96c1d27715fe8eb15a71801adae](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/586f4de2-f617-4bbf-852c-0b2a36a80e27)
+#### - Yêu cầu nhập đầy đủ thông tin
 ----------------------------------------------------------------------------------------------------------------------------------------
