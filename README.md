@@ -83,12 +83,12 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ### EIDT FLIGHT: Chỉnh sửa thông tin cho 1 chuyến bay <a name="10"></a>
 ![z5566112012919_a08c78631bb58aeadd93bca2cf7438e6](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/4354f133-cd59-48a5-9450-dffc5059bfc8)
 #### - Yêu cầu nhập đầy đủ thông tin.
-#### - Cho phép chọn máy bay thông qua "CHOOSE PLANE" (special)
+#### - Cho phép chọn máy bay thông qua [CHOOSE PLANE](#12) (special)
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### ADD FLIGHT: Khởi tạo 1 chuyến bay <a name="11"></a>
 ![z5566112012943_29bfe96c1d27715fe8eb15a71801adae](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/586f4de2-f617-4bbf-852c-0b2a36a80e27)
 #### - Yêu cầu nhập đầy đủ thông tin
-#### - Cho phép chọn máy bay thông qua "CHOOSE PLANE" (special)
+#### - Cho phép chọn máy bay thông qua [CHOOSE PLANE](#12) (special)
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### CHOOSE PLANE: Tính năng chọn máy bay chỉ cần thông qua click con trỏ chuột <a name="12"></a>
 ![z5566112012971_380046e5297c59dc2fa7d92325214d83](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/b0f4dcb8-fb39-4d86-a58f-640db764c724)
