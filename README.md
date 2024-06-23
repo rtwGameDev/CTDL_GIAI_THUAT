@@ -147,9 +147,11 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### PLANE: Thể hiện danh sách các máy bay. <a name="17"></a>
 ![z5566112083315_bafc700b5ed2bf14911ab027a84419f2](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/d271689f-814f-4709-8586-d3055f1de12c)
-#### - Mỗi máy bay chứa các thông tin về mã máy bay, loại máy bay, số lượng chỗ ngồi, trạng thái.
+#### - Mỗi máy bay chứa các thông tin về:
+|Mã máy bay|Loại máy bay|Số lượng chỗ ngồi|Trạng thái|
+|-|-|-|-|
 #### - Các chức năng tìm kiếm theo mã máy bay - [KMP Algorithm](#21)
-#### - Các tính năng sắp xếp danh sách máy bay theo 
+#### - Các tính năng sắp xếp danh sách máy bay theo:
 |ID|Số chỗ ngồi|Trạng thái|
 |-|-|-|
 #### - Khung "INFORMATION" chứa thông tin chi tiết của 1 máy bay.
