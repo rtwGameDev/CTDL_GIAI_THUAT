@@ -68,7 +68,9 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### EDIT PASSENGER: Chỉnh sửa thông tin hành khách <a name="6"></a>
 ![z5566111941951_8b69fe26d1098deb5cba6f1ab0137ab9](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/2df57ee0-d5b8-48e6-bcca-86499a69c7f2)
-#### - Tính năng cho phép chính sửa lại căn cước, họ tên, giới tính, đảm bảo không trùng lặp CCCD, không bỏ trống bất kì thông tin nào
+#### - Tính năng cho phép chính sửa lại:
+|Căn cước|Họ tên|Giới tính|Đảm bảo không trùng lặp CCCD|
+=> Không bỏ trống bất kì thông tin nào
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### ADD PASSENGER: Cho phép nhập thêm thông tin hành khách, đảm bảo đầy đủ thông tin và không trùng lặp. <a name="7"></a>
 ![z5566111941966_92cabdb383aa95f09ae038699773dbd2](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/f36fc183-3b13-419e-9367-529e39a4565c)
