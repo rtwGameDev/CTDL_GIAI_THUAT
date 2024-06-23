@@ -99,7 +99,11 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ##### + [PASSENGER LIST(MÃ CHUYẾN BAY)](#4) dẫn đến danh sách hành khách của 1 chuyến bay. 
 ##### + [FLIGHT LIST](#8) quay về danh sách các chuyến bay.
 ##### + Khung thông tin chuyến bay bao gồm: Hãng hàng không, ngày khởi hành, điểm đến, điểm khởi hành, giờ khởi hành, thời điểm tới nơi dự kiến (special), loại máy bay, mã máy bay.
-#### - Bảng hiển thị chỗ ngồi trong máy bay. (CHÚ THÍCH CÁC TRẠNG THÁI). Empty: Ghế trống, Reserved seat: ghế đã được đặt, Selected seat(Available): ghế đang được chọn(chưa được đặt), Selected seat(unavailable): ghế được chọn(dã đặt).
+#### - Bảng hiển thị chỗ ngồi trong máy bay. 
+##### + Empty: Ghế trống
+##### + Reserved seat: ghế đã được đặt
+##### + Selected seat(Available): ghế đang được chọn(chưa được đặt)
+##### + Selected seat(unavailable): ghế được chọn(dã đặt).
 #### - Tính năng đặt vé máy bay - [BOOK](#14)
 #### - TÍnh năng hủy vé máy bay - [CANCEL](#15)
 ----------------------------------------------------------------------------------------------------------------------------------------
