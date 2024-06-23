@@ -142,3 +142,4 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Các chức năng sắp xếp theo ID, số lần thực hiên, kiểu máy bay.
 #### - Khung thông tin.
 ----------------------------------------------------------------------------------------------------------------------------------------
+# - Các tính năng đặc biệt
