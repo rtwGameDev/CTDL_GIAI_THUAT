@@ -77,7 +77,9 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 |Trạng thái chuyến bay|
 |Số lượng vé đã đặt/tổng số vé|
 #### - Tính năng cập nhật chuyến bay theo thời gian thực. [Time Date](#22)
-#### - Sắp xếp danh sách chuyến bay theo Mã chuyến bay, Thời gian thực hiện chuyến bay (từ tương lai trở về quá khứ).
+#### - Sắp xếp danh sách chuyến bay theo
+|Mã chuyến bay|Thời gian thực hiện chuyến bay (từ tương lai trở về quá khứ)|
+|-|-|
 #### - Tính năng [FILTER BY TIME PERIOD](#9) lọc danh sách chuyến bay giữa 2 khoảng thời gian xác định. 
 #### - Khung "CONTROL" thực hiện các chức năng điều khiển cho phép lọc các chuyến bay theo thời gian và địa điểm đến.
 #### - Tính năng đặt vé máy bay - [BOOK](#14)
