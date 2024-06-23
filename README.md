@@ -55,3 +55,6 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Thanh tìm kiếm hành khách theo Mã căn cước.
 #### - Tính năng chỉnh sửa thông tin hành khách (Edit).
 #### - Tính năng thêm hành khách (ADD Passenger)
+#### - Back cho phép quay lại trang chính của Passenger Page
+----------------------------------------------------------------------------------------------------------------------------------------
+
