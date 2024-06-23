@@ -161,7 +161,9 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Bảng danh sách chứa các thông tin của hành khách.
 #### - [Ticket](#13): cho phép quay trở lại trang đặt vé của chuyến bay đang được focus.
 #### - Tính năng tìm kiếm theo căn cước công dân - [KMP Algorithm](#21)
-#### - Các tính năng sắp xếp danh sách hành khách theo căn cước công dân theo ID và Tên.
+#### - Các tính năng sắp xếp danh sách hành khách theo:
+|Căn cước công dân|ID|Tên|
+|-|-|-|
 #### - Các nút điều hướng trang dẫn tới [Flight List](#8) và [Passenger List](#4) và [ALL PASSENGER](#5)
 #### - [CANCEL](#15): Chọn 1 hành khách trên danh sách danh sách hành khách 1 chuyến bay, ta có thể truy cập thẳng tới trang hủy vé của hành khách đó.
 ----------------------------------------------------------------------------------------------------------------------------------------
