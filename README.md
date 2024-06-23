@@ -93,3 +93,13 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ### CHOOSE PLANE: Tính năng chọn máy bay chỉ cần thông qua click con trỏ chuột
 ![z5566112012971_380046e5297c59dc2fa7d92325214d83](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/b0f4dcb8-fb39-4d86-a58f-640db764c724)
 ----------------------------------------------------------------------------------------------------------------------------------------
+### ĐẶT VÉ MÁY BAY: cho phép người dùng đặt và hủy vé.
+![z5566112048197_8d6e865c35cd5104d9442cebe415991f](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/8846a66d-e223-4e54-81a2-050a0892e671)
+#### - Khung HEADER 
+##### + PASSENGER LIST(MÃ CHUYẾN BAY) dẫn đến danh sách hành khách của 1 chuyến bay.
+##### + FLIGHT LIST quay về danh sách các chuyến bay.
+##### + Khung thông tin chuyến bay bao gồm: Hãng hàng không, ngày khởi hành, điểm đến, điểm khởi hành, giờ khởi hành, thời điểm tới nơi dự kiến (special), loại máy bay, mã máy bay.
+#### - Bảng hiển thị chỗ ngồi trong máy bay. (CHÚ THÍCH CÁC TRẠNG THÁI). Empty: Ghế trống, Reserved seat: ghế đã được đặt, Selected seat(Available): ghế đang được chọn(chưa được đặt), Selected seat(unavailable): ghế được chọn(dã đặt).
+#### - Tính năng đặt vé máy bay(BOOK).
+#### - TÍnh năng hủy vé máy bay.
+
