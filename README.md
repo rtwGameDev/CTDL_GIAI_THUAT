@@ -96,10 +96,27 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ### ĐẶT VÉ MÁY BAY: cho phép người dùng đặt và hủy vé.
 ![z5566112048197_8d6e865c35cd5104d9442cebe415991f](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/8846a66d-e223-4e54-81a2-050a0892e671)
 #### - Khung HEADER 
-##### + PASSENGER LIST(MÃ CHUYẾN BAY) dẫn đến danh sách hành khách của 1 chuyến bay.
+##### + PASSENGER LIST(MÃ CHUYẾN BAY) dẫn đến danh sách hành khách của 1 chuyến bay. (link)
 ##### + FLIGHT LIST quay về danh sách các chuyến bay.
 ##### + Khung thông tin chuyến bay bao gồm: Hãng hàng không, ngày khởi hành, điểm đến, điểm khởi hành, giờ khởi hành, thời điểm tới nơi dự kiến (special), loại máy bay, mã máy bay.
 #### - Bảng hiển thị chỗ ngồi trong máy bay. (CHÚ THÍCH CÁC TRẠNG THÁI). Empty: Ghế trống, Reserved seat: ghế đã được đặt, Selected seat(Available): ghế đang được chọn(chưa được đặt), Selected seat(unavailable): ghế được chọn(dã đặt).
 #### - Tính năng đặt vé máy bay(BOOK).
 #### - TÍnh năng hủy vé máy bay.
-
+----------------------------------------------------------------------------------------------------------------------------------------
+### BOOK: Cho phép đặt vé, nhập thông tin vé, đảm bảo điền đầy đủ thông tin(1 người không thể đặt 2 vé trên cùng 1 chuyến bay).
+![z5566112048208_d0cc1f7b18326710b79f0912b5f0e780](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/c6e7108a-0200-4a3e-b5fd-874b8466d9a6)
+#### - NEXT: đặt vé.
+----------------------------------------------------------------------------------------------------------------------------------------
+### CANCEL: Hủy vé đã đặt.
+![z5566112048245_b1221a8b605ed73813201afcf180bc8d](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/46b3c959-e7c9-4803-9663-cdbe2384758d)
+#### - Yêu cầu xác nhận hủy hủy vé.
+#### *** Trang BOOK và CANCEL khi chọn 1 vị trí đều sẽ hiển thị chi tiết thông tin của chỗ ngồi và hành khách đã đặt tại đó.
+----------------------------------------------------------------------------------------------------------------------------------------
+### PASSENGER LIST: Thể hiện danh sách hành khách 1 chuyến bay đang được focus để đặt vé.
+![z5566112083251_907f2376efac7217beca076f853dbd72](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/ddf73ed7-5c9a-4615-8ae0-5695c74a15a5)
+#### - Khung hearder là khung thông tin chuyến bay bao gồm: Hãng hàng không, ngày khởi hành, điểm đến, điểm khởi hành, giờ khởi hành, thời điểm tới nơi dự kiến (special), loại máy bay, mã máy bay.
+#### - Ticket Button: cho phép quay trở lại trang đặt vé của chuyến bay đang được focus.
+#### - Tính năng tìm kiếm theo căn cước công dân.
+#### - Các tính năng sắp xếp danh sách hành khách theo căn cước công dân theo ID và Tên.
+#### - Các nút điều hướng trang dẫn tới Flight List và Passenger List và ALL PASSENGER
+#### - Chọn 1 hành khách trên danh sách danh sách hành khách 1 chuyến bay, ta có thể truy cập thẳng tới trang hủy vé của hành khách đó.
