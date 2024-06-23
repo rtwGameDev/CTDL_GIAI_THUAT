@@ -42,6 +42,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Hiển thị danh sách chuyến bay, lựa chọn 1 chuyến bay để xem danh sách hành khách trên chuyến bay đó. Trên mỗi phần tử chuyến bay chưa thông tin về:
 |MÃ SỐ CHUYẾN BAY|
 |-|
+####
 |THỜI GIAN KHỞI HÀNH - Ngày Tháng Năm Giờ Phút Địa điểm tới|
 |-|
 #### - Khung "FILLTER" lọc các chuyến bay theo thời gian và địa điểm.
