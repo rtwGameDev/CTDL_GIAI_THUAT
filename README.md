@@ -163,14 +163,8 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ### THỐNG KÊ: cho phép thống kê số lần thực hiện chuyến bay của các máy bay. <a name="20"></a>
 ![z5566112146945_b8e71197fc628e9b51fe93221a6d0965](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/fce6b37a-068f-4213-853c-23858df3acad)
 #### - Các chức năng sắp xếp theo:
-|ID|
-|-|
-####
-|Số lần thực hiện|
-|-|
-####
-|Kiểu máy bay|
-|-|
+|ID|Số lần thực hiện|Kiểu máy bay|
+|-|-|-|
 #### - Khung thông tin.
 ----------------------------------------------------------------------------------------------------------------------------------------
 # Các tính năng nổi bật trong đồ án.
