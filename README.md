@@ -73,7 +73,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Tính năng [FILTER BY TIME PERIOD](#9) lọc danh sách chuyến bay giữa 2 khoảng thời gian xác định. 
 #### - Khung "CONTROL" thực hiện các chức năng điều khiển cho phép lọc các chuyến bay theo thời gian và địa điểm đến.
 #### - Tính năng đặt vé máy bay - [BOOK](#14)
-#### - Tính năng cho phép chỉnh sửa thông tin chuyến bay, khởi tạo chuyến bay đảm bảo Mã chuyến bay không trùng lặp và không cho phép khởi tạo thời gian chuyến bay trong quá khứ. - [EDIT FLIGHT](#10)  [ADD FLIGHT](#11)
+#### - Tính năng cho phép chỉnh sửa thông tin chuyến bay, khởi tạo chuyến bay đảm bảo Mã chuyến bay không trùng lặp và không cho phép khởi tạo thời gian chuyến bay trong quá khứ. - [EDIT FLIGHT](#10)  -  [ADD FLIGHT](#11)
 #### - Tính năng cho phép hủy 1 chuyến bay (được chọn) - CANCEL FLIGHT
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### FILTER BY TIME PERIOD: Lọc chuyến bay trong 2 khoảng thời gian <a name="9"></a>
