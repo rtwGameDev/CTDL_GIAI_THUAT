@@ -159,7 +159,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 |ID|Số chỗ ngồi|Trạng thái|
 |-|-|-|
 #### - Khung "INFORMATION" chứa thông tin chi tiết của 1 máy bay.
-|||
+||
 |-|-|
 |[EDIT](#18)|Tính năng sửa thông tin máy bay|
 |[ADD PLANE](#19)|Thêm máy bay|
