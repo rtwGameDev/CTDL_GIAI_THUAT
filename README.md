@@ -41,13 +41,13 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ![z5566111941960_26f8a0333d40996179c7dc1cee76baa6](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/f4a7eff3-10f2-45a6-89ba-76f95c96b23c)
 #### - Hiển thị danh sách chuyến bay, lựa chọn 1 chuyến bay để xem danh sách hành khách trên chuyến bay đó. Trên mỗi phần tử chuyến bay chưa thông tin về MÃ SỐ CHUYẾN BAY, THỜI GIAN KHỞI HÀNH - Ngày Tháng Năm Giờ Phút Địa điểm tới.
 #### - Khung [FILTER_BY_FIELD](#9) lọc các chuyến bay theo thời gian và địa điểm.
-#### - Tính năng "ALL PASSENGER" cho phép dẫn đến trang xem toàn bộ hành khách đã từng đặt vé máy bay.
+#### - Tính năng [ALL PASSENGER](#5) cho phép dẫn đến trang xem toàn bộ hành khách đã từng đặt vé máy bay.
 #### - Tính năng "RESET ALL" cho phép đặt tất cả ô tìm kiếm và khung lọc về mặc định.
 #### - Thanh tìm kiếm theo mã chuyến bay. (SPECIAL) - [KMP Algorithm](#21)
 #### - Đồng hồ cập nhật theo thời gian thực.
 #### - LogOut giúp thoát ứng dụng trở lại trang Login
 ----------------------------------------------------------------------------------------------------------------------------------------
-### ALL-PASSENGER: Trang hiển thị tất cả thông tin các hành khách đã từng đặt vé máy bay. <a name="5"></a>
+### ALL PASSENGER: Trang hiển thị tất cả thông tin các hành khách đã từng đặt vé máy bay. <a name="5"></a>
 ![z5566111941925_50b7a127d2fa708051e31665ea799ef7](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/97946691-205d-4d16-a18c-4eb00ad0c9b6)
 #### - Mỗi hành khách gồm các thông tin: Mã căn cước công dân, họ và tên, giới tính.
 #### - Các chức năng sắp xếp danh sách hành khách theo, mã căn cước, theo họ, theo tên, theo giới tính.
@@ -76,7 +76,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Tính năng cho phép chỉnh sửa thông tin chuyến bay, khởi tạo chuyến bay đảm bảo Mã chuyến bay không trùng lặp và không cho phép khởi tạo thời gian chuyến bay trong quá khứ.
 #### - Tính năng cho phép hủy 1 chuyến bay (được chọn)
 ----------------------------------------------------------------------------------------------------------------------------------------
-### FILTER: Lọc chuyến bay trong 2 khoảng thời gian <a name="9"></a>
+### FILTER_BY_FIELD: Lọc chuyến bay trong 2 khoảng thời gian <a name="9"></a>
 ![z5566111976848_97a1ebe16ac3c506135ad429e85a8e59](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/975197a3-a296-4095-a16b-c76da6fd4b1d)
 #### - Yêu cầu nhập đầy đủ ngày tháng năm.
 ----------------------------------------------------------------------------------------------------------------------------------------
