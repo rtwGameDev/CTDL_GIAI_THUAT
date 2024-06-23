@@ -150,5 +150,10 @@ https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/8a10fe36-8f4e-4d0
 
 
 ## + Phân luồng chạy cập nhật chuyến bay, đồng hồ theo thời gian thực.
+
+
+https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/126996254/58134741-96bf-41ea-a128-e7bd8e2589f3
+
+
 ## + Giao diện áp dụng công nghệ mới.
 ## + Trang bị những tiện ích liên kết các thông tin cho người dùng.
