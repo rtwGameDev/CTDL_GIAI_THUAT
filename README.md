@@ -40,7 +40,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ### PASSENGER: Trang giao diện hành khách. <a name="4"></a>
 ![z5566111941960_26f8a0333d40996179c7dc1cee76baa6](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/f4a7eff3-10f2-45a6-89ba-76f95c96b23c)
 #### - Hiển thị danh sách chuyến bay, lựa chọn 1 chuyến bay để xem danh sách hành khách trên chuyến bay đó. Trên mỗi phần tử chuyến bay chưa thông tin về MÃ SỐ CHUYẾN BAY, THỜI GIAN KHỞI HÀNH - Ngày Tháng Năm Giờ Phút Địa điểm tới.
-#### - Khung [FILTER_BY_FIELD](#9) lọc các chuyến bay theo thời gian và địa điểm.
+#### - Khung "FILLTER" lọc các chuyến bay theo thời gian và địa điểm.
 #### - Tính năng [ALL PASSENGER](#5) cho phép dẫn đến trang xem toàn bộ hành khách đã từng đặt vé máy bay.
 #### - Tính năng "RESET ALL" cho phép đặt tất cả ô tìm kiếm và khung lọc về mặc định.
 #### - Thanh tìm kiếm theo mã chuyến bay. (SPECIAL) - [KMP Algorithm](#21)
@@ -70,13 +70,13 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Mỗi phần tử sẽ thể hiện 1 chuyến bay nhất định, chứa các thông tin về mã chuyến bay, ngày giờ khởi hành, điểm đến, mã máy bay thực hiện chuyến bay, trạng thái chuyến bay, số lượng vé đã đặt/tổng số vé.
 #### - Tính năng cập nhật chuyến bay theo thời gian thực.
 #### - Sắp xếp danh sách chuyến bay theo Mã chuyến bay, Thời gian thực hiện chuyến bay (từ tương lai trở về quá khứ).
-#### - Tính năng "FILTER BY TIME PERIOD" lọc danh sách chuyến bay giữa 2 khoảng thời gian xác định. (link)
+#### - Tính năng [FILTER BY TIME PERIOD](#9) lọc danh sách chuyến bay giữa 2 khoảng thời gian xác định. (link)
 #### - Khung "CONTROL" thực hiện các chức năng điều khiển cho phép lọc các chuyến bay theo thời gian và địa điểm đến.
 #### - Tính năng đặt vé máy bay (BOOK)
 #### - Tính năng cho phép chỉnh sửa thông tin chuyến bay, khởi tạo chuyến bay đảm bảo Mã chuyến bay không trùng lặp và không cho phép khởi tạo thời gian chuyến bay trong quá khứ.
 #### - Tính năng cho phép hủy 1 chuyến bay (được chọn)
 ----------------------------------------------------------------------------------------------------------------------------------------
-### FILTER_BY_FIELD: Lọc chuyến bay trong 2 khoảng thời gian <a name="9"></a>
+### FILTER BY TIME PERIOD: Lọc chuyến bay trong 2 khoảng thời gian <a name="9"></a>
 ![z5566111976848_97a1ebe16ac3c506135ad429e85a8e59](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/975197a3-a296-4095-a16b-c76da6fd4b1d)
 #### - Yêu cầu nhập đầy đủ ngày tháng năm.
 ----------------------------------------------------------------------------------------------------------------------------------------
