@@ -142,4 +142,13 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Các chức năng sắp xếp theo ID, số lần thực hiên, kiểu máy bay.
 #### - Khung thông tin.
 ----------------------------------------------------------------------------------------------------------------------------------------
-# - Các tính năng đặc biệt
+# Các tính năng nổi bật trong đồ án.
+## + Thuật toán tìm kiếm dựa trên KMP.
+
+
+https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/8a10fe36-8f4e-4d0a-b412-c3e9bbd536a9
+
+
+## + Phân luồng chạy cập nhật chuyến bay, đồng hồ theo thời gian thực.
+## + Giao diện áp dụng công nghệ mới.
+## + Trang bị những tiện ích liên kết các thông tin cho người dùng.
