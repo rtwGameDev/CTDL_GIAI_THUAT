@@ -34,6 +34,8 @@ Ngày giờ khởi hành: dd/mm/yyyy hh:mm.  Nơi đến : xxxxxxxxxxx
 https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e0?pvs=4
 ## HƯỚNG DẪN SỬ DỤNG
 
+https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/126996254/51e1e8c8-2151-4306-b8d3-6259353115fe
+
 
 
 
