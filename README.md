@@ -53,9 +53,9 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Các chức năng sắp xếp danh sách hành khách theo, mã căn cước, theo họ, theo tên, theo giới tính.
 #### - Khung "INFOMATION" hiển thị chi tiết thông tin cũng như tiện cho việc sửa và thêm hành khách
 #### - Thanh tìm kiếm hành khách theo Mã căn cước.
-#### - Tính năng chỉnh sửa thông tin hành khách ([EDIT PASSENGER](#6)).
-#### - Tính năng thêm hành khách ([ADD PASSENGER](#7))
-#### - Back cho phép quay lại trang chính của [PASSENGER](#4)
+#### - Tính năng chỉnh sửa thông tin hành khách - [EDIT PASSENGER](#6).
+#### - Tính năng thêm hành khách - [ADD PASSENGER](#7)
+#### - Back cho phép quay lại trang chính của - [PASSENGER](#4)
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### EDIT PASSENGER: Chỉnh sửa thông tin hành khách <a name="6"></a>
 ![z5566111941951_8b69fe26d1098deb5cba6f1ab0137ab9](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/2df57ee0-d5b8-48e6-bcca-86499a69c7f2)
@@ -70,10 +70,10 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Mỗi phần tử sẽ thể hiện 1 chuyến bay nhất định, chứa các thông tin về mã chuyến bay, ngày giờ khởi hành, điểm đến, mã máy bay thực hiện chuyến bay, trạng thái chuyến bay, số lượng vé đã đặt/tổng số vé.
 #### - Tính năng cập nhật chuyến bay theo thời gian thực.
 #### - Sắp xếp danh sách chuyến bay theo Mã chuyến bay, Thời gian thực hiện chuyến bay (từ tương lai trở về quá khứ).
-#### - Tính năng [FILTER BY TIME PERIOD](#9) lọc danh sách chuyến bay giữa 2 khoảng thời gian xác định. (link)
+#### - Tính năng [FILTER BY TIME PERIOD](#9) lọc danh sách chuyến bay giữa 2 khoảng thời gian xác định. 
 #### - Khung "CONTROL" thực hiện các chức năng điều khiển cho phép lọc các chuyến bay theo thời gian và địa điểm đến.
 #### - Tính năng đặt vé máy bay - [BOOK](#14)
-#### - Tính năng cho phép chỉnh sửa thông tin chuyến bay, khởi tạo chuyến bay đảm bảo Mã chuyến bay không trùng lặp và không cho phép khởi tạo thời gian chuyến bay trong quá khứ.
+#### - Tính năng cho phép chỉnh sửa thông tin chuyến bay, khởi tạo chuyến bay đảm bảo Mã chuyến bay không trùng lặp và không cho phép khởi tạo thời gian chuyến bay trong quá khứ. - [EDIT](#10); [ADD](#11)
 #### - Tính năng cho phép hủy 1 chuyến bay (được chọn)
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### FILTER BY TIME PERIOD: Lọc chuyến bay trong 2 khoảng thời gian <a name="9"></a>
