@@ -1,6 +1,9 @@
 # CTDL_GIAI_THUAT
 ## Table of Contents
 - [ĐỀ BÀI](#1)
+- [HƯỚNG DẪN CÀI ĐẶT](#2)
+- [HƯỚNG DẪN SỬ DỤNG](#23)
+- [CÁC TÍNH NĂNG NỔI BẬC TRONG ĐỒ ÁN](#24)
 ## ĐỀ BÀI <a name="1"></a>
 ### Máy bay (Airplane)
 #### - Mảng con trỏ tối đa 300 máy bay
@@ -34,7 +37,7 @@ Ngày giờ khởi hành: dd/mm/yyyy hh:mm.  Nơi đến : xxxxxxxxxxx
 
 ## HƯỚNG DẪN CÀI ĐẶT <a name="2"></a>
 https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e0?pvs=4
-## HƯỚNG DẪN SỬ DỤNG
+## HƯỚNG DẪN SỬ DỤNG <a name="23"></a>
 ### LOGIN: Trang đăng nhập <a name="3"></a>
 ![z5566111907141_cf6a4eb4b19737c6f0cfe04445f3d425](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/dbbe929c-50e7-43a5-8e3c-acf79cfe1187)
 #### - Đăng nhập vào ứng dụng, nhấn login
@@ -199,7 +202,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 |-|-|-|
 #### - Khung thông tin.
 ----------------------------------------------------------------------------------------------------------------------------------------
-# Các tính năng nổi bật trong đồ án.
+# CÁC TÍNH NĂNG NỔI BẬC TRONG ĐỒ ÁN <a name="24"></a>
 ## + Thuật toán tìm kiếm dựa trên KMP. <a name="21"></a>
 
 
