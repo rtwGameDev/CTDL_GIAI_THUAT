@@ -129,16 +129,16 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 #### - Khung HEADER 
 ##### + [PASSENGER LIST](#4) (MÃ CHUYẾN BAY) dẫn đến danh sách hành khách của 1 chuyến bay. 
 ##### + [FLIGHT LIST](#8) quay về danh sách các chuyến bay.
-|Khung thông tin chuyến bay|
-|--------------------------|
-|Hãng hàng không|
-|Ngày khởi hành|
-|Điểm đến|
-|Điểm khởi hành|
-|Giờ khởi hành|
-|Thời điểm tới nơi dự kiến (special)|
-|Loại máy bay|
-|Mã máy bay|
+|Khung thông tin chuyến bay|Special|
+|--------------------------|-------|
+|Hãng hàng không||
+|Ngày khởi hành||
+|Điểm đến||
+|Điểm khởi hành||
+|Giờ khởi hành||
+|Thời điểm tới nơi dự kiến (special)|Cho phép cập nhật từ AVAILABLE -> COMPLETE sau khi hoàn thành chuyến bay|
+|Loại máy bay||
+|Mã máy bay||
 #### - Bảng hiển thị chỗ ngồi trong máy bay. 
 |Trang thái|Ý nghĩa|
 |------|----------|	
