@@ -152,6 +152,8 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 ### BOOK: Cho phép đặt vé, nhập thông tin vé, đảm bảo điền đầy đủ thông tin(1 người không thể đặt 2 vé trên cùng 1 chuyến bay). <a name="14"></a>
 ![z5566112048208_d0cc1f7b18326710b79f0912b5f0e780](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/c6e7108a-0200-4a3e-b5fd-874b8466d9a6)
 #### - NEXT: đặt vé.
+#### - Khi nhập căn cước công dân, nếu trùng với 1 hành khách đã đặt ghế trên chuyến bay hiện tại thì hệ thống sẽ báo lỗi
+#### - So sánh căn cước: nếu hành khách đã từng đi ở bất kỳ chuyến bay nào trước đây, hệ thống sẽ tự điền và khóa các thông tin còn lại (Mỗi căn cước chỉ ứng với 1 người)
 ----------------------------------------------------------------------------------------------------------------------------------------
 ### CANCEL: Hủy vé đã đặt. <a name="15"></a>
 ![z5566112048245_b1221a8b605ed73813201afcf180bc8d](https://github.com/rtwGameDev/CTDL_GIAI_THUAT/assets/127731925/46b3c959-e7c9-4803-9663-cdbe2384758d)
