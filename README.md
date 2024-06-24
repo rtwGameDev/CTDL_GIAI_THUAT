@@ -136,7 +136,7 @@ https://wide-lunch-878.notion.site/Setup-v-c-i-t-337a59ce1ea1450d9560c0fd434d79e
 |Điểm đến||
 |Điểm khởi hành||
 |Giờ khởi hành||
-|Thời điểm tới nơi dự kiến (special)|Cho phép cập nhật từ AVAILABLE -> COMPLETE sau khi hoàn thành chuyến bay|
+|Thời điểm tới nơi dự kiến (special)|Cho phép cập nhật từ AVAILABLE -> UNAVAILABLE khi đang bay; UNVAILABLE -> COMPLETE sau khi hoàn thành chuyến bay - Time Date|
 |Loại máy bay||
 |Mã máy bay||
 #### - Bảng hiển thị chỗ ngồi trong máy bay. 
