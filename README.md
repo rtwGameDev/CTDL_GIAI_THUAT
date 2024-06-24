@@ -9,7 +9,7 @@
 #### - Mảng con trỏ tối đa 300 máy bay
 #### - Mỗi máy bay có các thông tin: Số hiệu MB(C15), loại máy bay(C40), số dãy, số dòng
 #### - Mỗi máy bay có 1 số hiệu duy nhất
-#### - Số chỗ = sỗ dãy * số dòng (số chỗ >= 20)
+#### - Số chỗ = số dãy * số dòng (số chỗ >= 20)
 ### Chuyến bay (Flight) 
 #### - Danh sách liên kết đơn (Mã CB(C15), Ngày giờ khởi hành, sân bay đến, trạng thái, Số hiệu MB, danh sách vé) 
 #### - Mỗi chuyến bay có 1 mã duy nhất
