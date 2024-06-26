@@ -233,7 +233,7 @@ class flightListCLASS {
             bool* finded = new bool[getNumber_Flight];
             for (int i = 0; i <= getNumber_Flight - 1; ++i) finded[i] = false;
             for (int i = 0; i <= getNumber_Flight - 1; ++i) {
-                if (arr[i]->information.destination == des) {
+                if (NS_myLib::ExistenceCheck(des, arr[i]->information.destination)) {
                     finded[i] = true;
                 }
             }
@@ -357,6 +357,7 @@ class flightListCLASS {
                 else break;
             }
             numberOfTicket_total = String_to_Number(strNumberOfTicket_total);
+            
             ++i;
             if (numberOfTicket_booked == 0) {
                 ticket_list = nullptr;
@@ -462,7 +463,7 @@ class flightListCLASS {
                 tmp = tmp->next;
             }
         }
-        // -- //
+        // -- Selection Sort //
         void sort_ID(nodeFlight** arr, int n) {
             nodeFlight* tmp;
             for (int i = 0; i <= n - 2; ++i) {

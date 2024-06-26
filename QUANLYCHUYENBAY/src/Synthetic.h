@@ -262,7 +262,7 @@ namespace NS_synthetic {
         else {
             if (tmp->isAvai == false) return "The plane is on another flight *";
         }
-        tmp->isAvai = false;
+        tmp->isAvai = false; //????
         NS_dateTime::dateTime departure(day, month, year, hour, minute, "");
         NS_dateTime::Format(departure);
         STATUS stt = AVAILABLE;
@@ -361,7 +361,13 @@ namespace NS_synthetic {
     void ticket_takeData_airplane() {
         std::cout << "\n";
         std::string planeCode = ticket_flight->planeCode;
-        ticket_airplane = airplaneListDATA.get_data(airplaneListDATA.findAirplane(planeCode));
+        int index = airplaneListDATA.findAirplane(planeCode);
+        if (index == -1) {
+            ticket_airplane.typePlane = "######";
+            ticket_airplane.idPlane = "########";
+            return;
+        }
+        ticket_airplane = airplaneListDATA.get_data(index);
         ticket_airplane.prInfo();
     }
     
@@ -444,7 +450,7 @@ namespace NS_synthetic {
             passengerListFlight[i].firstName = x->firstName;
             passengerListFlight[i].lastName = x->lastName;
             passengerListFlight[i].sex = x->sex;
-            passengerListFlight[i].prInfo();
+            // passengerListFlight[i].prInfo();
         } 
         SLINT_flightPassenger = passengerListFlight;
     }

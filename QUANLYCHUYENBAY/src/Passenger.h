@@ -165,21 +165,14 @@ class PassengerCLASS {
         }
         void exist(std::string idCard, nodeAVLPassenger*& temp) {
             if (root == nullptr) return;
-            nodeAVLPassenger** STACK = new nodeAVLPassenger * [numberOfPassenger];
-            int index = -1;
-            nodeAVLPassenger* cur = root;
-            while (index != -1 || cur != nullptr) {
-                while (cur != nullptr) {
-                    STACK[++index] = cur;
-                    cur = cur->left;
-                }
-                cur = STACK[index];
-                if (cur->info.idCard == idCard) {
-                    temp = cur;
+            nodeAVLPassenger* tmp = root;
+            while (tmp != nullptr) {
+                if (tmp->info.idCard == idCard) {
+                    temp = tmp;
                     return;
                 }
-                index--;
-                cur = cur->right;
+                if (tmp->info.idCard < idCard) tmp = tmp->right;
+                else tmp = tmp->left;
             }
         }
         void show() {
@@ -209,11 +202,12 @@ class PassengerCLASS {
             nodeAVLPassenger* cur = root;
             while (index != -1 || cur != nullptr) {
                 while (cur != nullptr) {
-                    arr[++i] = cur;
+                    
                     STACK[++index] = cur;
                     cur = cur->left;
                 }
                 cur = STACK[index];
+                arr[++i] = cur;
                 index--;
                 cur = cur->right;
             }
@@ -367,23 +361,32 @@ class PassengerCLASS {
         void getInfo_bySearch(Passenger *&info, std::string IDCARD) {
             info == nullptr;
             if (root == nullptr) return;
-            nodeAVLPassenger** STACK = new nodeAVLPassenger * [numberOfPassenger];
-            int index = -1;
-            nodeAVLPassenger* cur = root;
-            while (index != -1 || cur != nullptr) {
-                while (cur != nullptr) {
-                    STACK[++index] = cur;
-                    cur = cur->left;
-                }
-
-                cur = STACK[index];
-                if (cur->info.idCard == IDCARD) {
-                    info = &cur->info;
+            nodeAVLPassenger* tmp = root;
+            while (tmp != nullptr) {
+                if (tmp->info.idCard == IDCARD) {
+                    info = &tmp->info;
                     return;
                 }
-                index--;
-                cur = cur->right;
+                if (tmp->info.idCard < IDCARD) tmp = tmp->right;
+                else tmp = tmp->left;
             }
+            // nodeAVLPassenger** STACK = new nodeAVLPassenger * [numberOfPassenger];
+            // int index = -1;
+            // nodeAVLPassenger* cur = root;
+            // while (index != -1 || cur != nullptr) {
+            //     while (cur != nullptr) {
+            //         STACK[++index] = cur;
+            //         cur = cur->left;
+            //     }
+
+            //     cur = STACK[index];
+            //     if (cur->info.idCard == IDCARD) {
+            //         info = &cur->info;
+            //         return;
+            //     }
+            //     index--;
+            //     cur = cur->right;
+            // }
         }
         void sortTICKETPASSENGERLIST_BYID(Passenger *&arr, int n) {
             Passenger temp; 

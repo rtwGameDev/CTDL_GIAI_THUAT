@@ -70,7 +70,7 @@ namespace NS_Ticket {
         newTicket_List[numberOfTicket_booked].TICKET_CODE = TICKET_CODE;
 
         // Giải phóng bộ nhớ của mảng cũ
-        // delete[] ticket_list;
+        delete[] ticket_list;
 
         // Cập nhật con trỏ và kích thước
         ticket_list = newTicket_List;

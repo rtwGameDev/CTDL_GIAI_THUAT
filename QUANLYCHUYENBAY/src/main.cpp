@@ -54,12 +54,13 @@ void ticket_Render_information(auto ui, info_flight *info, airplane ticket_airpl
     DATA_ticket.info.RowNumber = ticket_airplane.rowNumber;
     DATA_ticket.info.isAvai = ticket_airplane.isAvai;
     DATA_ticket.info.flyTimes = ticket_airplane.flyTimes;
+    ui->global<ticket_global>().set_flightStatus(info->flightStatus);
     ui->global<ticket_global>().set_flightCode(NS_myLib::to_shared_string(info->flightCode));
     std::string time = "";
     time = time + info->departure.hour + ":" + info->departure.minute;
     cout << time << endl;
     ui->global<ticket_global>().set_information(DATA_ticket);
-    ui->global<ticket_global>().set_frFlight(NS_myLib::to_shared_string(info->destination));
+    ui->global<ticket_global>().set_toFlight(NS_myLib::to_shared_string(info->destination));
 
     ui->global<ticket_global>().set_timeDepartingFlight(NS_myLib::to_shared_string(time));
     time = "";
@@ -606,6 +607,8 @@ void thread2() {
 
     ui->global<functionAPP>().on_connect_passengerFlight([&] (slint::SharedString searchFlightCode){
         string flightCode(searchFlightCode);
+        ui->global<ticket_global>().set_seat_passenger(-1);
+        ui->global<ticket_global>().set_chose_passengerListFlight_list(-1);
         NS_synthetic::ticket_takeData_flight(flightCode);
         NS_synthetic::ticket_takeData_airplane();
         ticket_Render_information(ui, NS_synthetic::ticket_flight, NS_synthetic::ticket_airplane, NS_synthetic::ticket_flight->numberOfTicket_booked, NS_synthetic::ticket_flight->ticket_list);
@@ -835,7 +838,7 @@ void thread2() {
                     if (NS_synthetic::ticket_passenger->idCard == NS_synthetic::ticket_flight->ticket_list[i].IDCard) {
                         bought_ticket = NS_myLib::String_to_Number(NS_synthetic::ticket_flight->ticket_list[i].TICKET_CODE);
                         ui->global<ticket_global>().set_bought_ticket(bought_ticket);
-                        return slint::SharedString(NS_myLib::to_shared_string("           Each person\nis only allowed to book one ticket"));
+                        return slint::SharedString(NS_myLib::to_shared_string("               Each person\nis only allowed to book one ticket"));
                     }
                 }
                 ui->global<ticket_global>().set_book_information_firstName(NS_myLib::to_shared_string(NS_synthetic::ticket_passenger->firstName));

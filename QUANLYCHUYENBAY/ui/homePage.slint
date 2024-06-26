@@ -666,12 +666,13 @@ export global ticket_global {
 
     // KHOI BIEN INFORMATION CHUYEN BAY
     in-out property <ticket> information;
-    in-out property <string> frFlight : "";
-    in-out property <string> toFlight: "TPHCM";
+    in-out property <string> frFlight : "TPHCM";
+    in-out property <string> toFlight: "";
     in-out property <string> timeDepartingFlight : "";
     in-out property <string> timeArrivingFlight : "";
     in-out property <string> dateFlight: "";
     in-out property <string> flightCode : "";
+    in-out property <int> flightStatus;
 
     // BIEN INFOMATION BOOK & CANCEL
     in-out property <string> book_information_idCard : "";
@@ -2559,6 +2560,13 @@ component flightPage_Body_Control_FILTER inherits Rectangle {
                 BOOKArea:= TouchArea {
                     clicked => {
                         ticket-global.chose_ticketSeat = -1;
+                        ticket-global.chose_ticketSeatTmp = -1;
+                        ticket-global.chose_ticketFunction = 0;
+                        ticket-global.book_information_idCard = "";
+                        ticket-global.book_information_firstName = "Enter the First name";
+                        ticket-global.book_information_lastName = "Enter the last name";
+                        ticket-global.book_information_sex = "Enter the Sex";
+                        ticket-global.chose_sex = 0;
                         if (functionAPP.flightHASFOCUS_flightPage == -1) {
                             CONST-FUNCTION-GLOBAL.SHOW_WARNING_ERORR("Must choose 1 flight");
                         }
@@ -6864,6 +6872,7 @@ component ticket_boxItem_passengerList inherits Rectangle {
     touch := TouchArea {
         clicked => {
             ticket-global.seat_passenger = -1;
+            ticket-global.chose_passengerListFlight_list = -1;
             ticket-global.chose_ticketFunction = 0;
             ticket-global.chose_function_passengerListFlight_ticket = 2;
             ticket-global.passengerListFlight_sort(ticket-global.chose_passengerListFlight_sort);
@@ -7197,19 +7206,24 @@ component passengerListFlight_button_cancel inherits Rectangle {
     }
     touch := TouchArea { 
         clicked => {
-            if (ticket-global.seat_passenger == -1 || ticket-global.chose_passengerListFlight_list == -1) {
-                CONST-FUNCTION-GLOBAL.SHOW_WARNING_ERORR("You haven't selected any seat to cancel");
+            if (ticket-global.information.info.IDPlane == "########" || ticket-global.flightStatus != 1) {
+                CONST-FUNCTION-GLOBAL.SHOW_WARNING_ERORR("Airplane isn't available");
             }
-            if (ticket-global.seat_passenger != -1 && ticket-global.chose_passengerListFlight_list != -1) {
-                CONST-FUNCTION-GLOBAL.page_number_SHOW = 4;
-                ticket-global.chose_function_passengerListFlight_ticket = 1;
-                ticket-global.chose_ticketFunction = 2;
+            else {
+                if (ticket-global.seat_passenger == -1 || ticket-global.chose_passengerListFlight_list == -1) {
+                    CONST-FUNCTION-GLOBAL.SHOW_WARNING_ERORR("You haven't selected any seat to cancel");
+                }
+                if (ticket-global.seat_passenger != -1 && ticket-global.chose_passengerListFlight_list != -1) {
+                    CONST-FUNCTION-GLOBAL.page_number_SHOW = 4;
+                    ticket-global.chose_function_passengerListFlight_ticket = 1;
+                    ticket-global.chose_ticketFunction = 2;
 
-                ticket-global.chose_ticketSeatTmp = ticket-global.seat_passenger;
-                ticket-global.chose_passengerListFlight_list = -1;
+                    ticket-global.chose_ticketSeatTmp = ticket-global.seat_passenger;
+                    ticket-global.chose_passengerListFlight_list = -1;
 
-                ticket-global.getCPP_information_cancel(ticket-global.seat_passenger);
-                ticket-global.chose_ticketSeat = ticket-global.seat_passenger;
+                    ticket-global.getCPP_information_cancel(ticket-global.seat_passenger);
+                    ticket-global.chose_ticketSeat = ticket-global.seat_passenger;
+                }
             }
         }
     }
@@ -7440,8 +7454,14 @@ component passengerListFlight_list_information_search inherits Rectangle{
 component passengerListFlight_buttonTicket inherits Rectangle {
     touch := TouchArea {
         clicked => {
-            CONST-FUNCTION-GLOBAL.page_number_SHOW = 4;
-            ticket-global.chose_function_passengerListFlight_ticket = 1;
+            ticket-global.chose_ticketSeat = -1;
+            if (ticket-global.information.info.IDPlane == "########" || ticket-global.flightStatus != 1) {
+                CONST-FUNCTION-GLOBAL.SHOW_WARNING_ERORR("Airplane isn't available");
+            }
+            else {
+                CONST-FUNCTION-GLOBAL.page_number_SHOW = 4;
+                ticket-global.chose_function_passengerListFlight_ticket = 1;
+            }
         }
     }
         

@@ -53,7 +53,7 @@ public:
     }
     // -- //
     int findAirplane(std::string idPlane) {
-        if (this->index != -1) { // ?????
+        if (this->index != -1) { 
             for (int i = 0; i <= this->index; i++) {
                 if (this->data[i]->idPlane == idPlane) return i;
             }

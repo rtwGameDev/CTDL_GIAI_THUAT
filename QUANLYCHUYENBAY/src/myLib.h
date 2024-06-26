@@ -165,8 +165,8 @@ namespace NS_myLib {
         else strIsVai = "0";
         return idPlane + "#" + typePlane + "#" + strRowNumber + "#" + strColNumber + "#" + strFlyTimes + "#" + strIsVai;
     }
-
-    bool ExistenceCheck(string a, string b){
+    // Kruth Morris Pratt
+    bool ExistenceCheck(string a, string b) {
         int p[30] = {0};
         a = " " + a;
         b = " " + b;
